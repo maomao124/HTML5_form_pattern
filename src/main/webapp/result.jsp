@@ -27,5 +27,11 @@
     String text = request.getParameter("text");
     String country_code = request.getParameter("country_code");
 %>
+
+邮政编码：
+<%=country_code%>
+<br>
+文本：
+<%=text%>
 </body>
 </html>
